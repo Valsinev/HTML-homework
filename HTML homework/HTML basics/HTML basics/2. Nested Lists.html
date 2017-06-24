@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nested Lists</title>
+    <style type="text/CSS">
+      tab1 { padding-left: 1.5em; }
+      tab2 { padding-left: 0.6em; }
+    </style>
+  </head>
+
+  <body>
+    <p>Preceding Text</p>
+    <ol type="I">
+      <li><tab1>List item 1</tab1>
+      <ol type="a">
+        <li><tab2>Nested item 1.1</tab2></li>
+        <li><tab2>Nested item 1.2</tab2></li>
+      </ol>
+    </li>
+      <li><tab1>List item 2</tab1>
+        <ol type="1">
+          <li><tab2>Nested item 2.1</tab2></li>
+          <li><tab2>Nested item 2.2</tab2>
+            <ul type="circle">
+              <li><tab2>Nested item 2.2.1</tab2></li>
+              <li><tab2>Nested item 2.2.2</tab2>
+                <ul type="square">
+                  <li><tab2>Nested item 2.2.2.1</tab2></li>
+                  <li><tab2>Nested item 2.2.2.2</tab2></li>
+                </ul>
+              </li>
+              <li><tab2>Nested item 2.2.3</tab2></li>
+            </ul>
+          </li>
+          <li><tab2>Nested item 2.3</tab2></li>
+        </ol>
+      </li>
+      <li><tab1>List item 3</tab1>
+        <ul type="disc">
+          <li><tab2>Nested item 3.1</tab2></li>
+          <li><tab2>Nested item 3.2</tab2></li>
+          <li><tab2>Nested item 3.3</tab2></li>
+        </ul>
+      </li>
+      </li>
+    </ol>
+  </body>
+</html>

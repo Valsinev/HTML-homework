@@ -1,0 +1,26 @@
+table{
+  border: 1px solid black;
+  border-spacing: 5;
+  width: 45%;
+}
+legend{
+  text-align: center;
+}
+img{
+  float: left;
+}
+thead{
+  text-align: center;
+  font-weight: bold;
+}
+table table{
+  width: 106%;
+}
+.scrollers{
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+#main{
+  border-collapse: collapse;
+}

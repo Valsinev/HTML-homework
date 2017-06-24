@@ -1,0 +1,16 @@
+table, td{
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+h3{
+  text-align: right;
+}
+
+.row13{
+  text-align: center;
+  background-color: lightcyan;
+}
+#cityData tr{
+  border: none;
+}

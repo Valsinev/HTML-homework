@@ -1,0 +1,26 @@
+table tr td {
+  border: 1px solid #000000;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+thead{
+  font-weight: bold;
+  background-color: #A9D0F5;
+  text-align: center;
+}
+tbody{
+  background-color: #BFFF00;
+}
+tfoot{
+  background-color: #FF8000;
+}
+.average{
+  font-weight: bold;
+  text-align: center;
+}
+input{
+  background-color: #BDBDBD;
+}

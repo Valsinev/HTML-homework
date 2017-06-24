@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles/registration-styles.css">
+</head>
+
+<body>
+  <table>
+    <form class="submiter" action="#" method="post">
+      <tr class="row1">
+        <td>
+          <h3>Last Name</h3></td>
+          <td><input class="row-width" type="text" name="lastName" value=""></td>
+      </tr>
+      <tr class="row2">
+        <td>
+          <h3>First Name</h3></td>
+          <td><input class="row-width" type="text" name="firstName" value=""></td>
+      </tr>
+      <tr class="row3">
+        <td>
+          <h3>Address</h3></td>
+        <td><textarea name="address" rows="8" cols="80"></textarea></td>
+      </tr>
+      <tr class="row4">
+        <td>
+          <h3>City</h3></td>
+        <td>
+          <table class="cityData">
+            <tr>
+              <td><input type="text" name="city" value=""></td>
+              <td>
+                <h3>State</h3></td>
+              <td class="statebox"><input type="text" name="state" value=""></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="row5">
+        <td>
+          <h3>ZIP/Postal Code</h3></td>
+        <td><input type="text" name="zipCode" value=""></td>
+      </tr>
+      <tr class="row6">
+        <td>
+          <h3>Country</h3></td>
+        <td><select class="countryOptions" name="countrySelecter">
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="America">America</option>
+            <option value="Germany">Germany</option>
+          </select></td>
+      </tr>
+      <tr class="row7">
+        <td>
+          <h3>Phone (country code, <br>
+            area code, number)
+          </h3>
+        </td>
+        <td>(+
+          <input type="text" name="countryCode" value="" placeholder="359">)
+          <input type="text" name="areaCode" value="">
+          <input type="text" name="phoneNumber" value="">
+        </td>
+      </tr>
+      <tr class="row8">
+        <td>
+          <h3>E-mail</h3></td>
+          <td><input class="row-width" type="text" name="email" value=""></td>
+      </tr>
+      <tr class="row9">
+        <td>
+          <h3>Birth date</h3></td>
+        <td>Month
+          <input type="text" name="month" value="">Day
+          <input type="text" name="day" value=""> Year (4 digit)
+          <input type="text" name="year" value="">
+        </td>
+      </tr>
+      <tr class="row10">
+        <td>
+          <h3>Gender</h3></td>
+        <td>
+          <select class="genderSelect" name="genderSelector">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr class="row11">
+        <td>
+          <h3>Starting date</h3></td>
+        <td>
+          <input type="radio" name="startingDate" value="spring2006">Spring 2006
+          <input type="radio" name="startingDate" value="summer2006">Summer 2006
+        </td>
+      </tr>
+      <tr class="row12">
+        <td>
+          <h3>Comments/Questions</h3></td>
+        <td>
+          <textarea name="Questions" rows="8" cols="80"></textarea>
+        </td>
+      </tr>
+      <tr class="row13">
+        <td colspan="2">
+          <input type="button" name="submit" value="Submit">
+          <input type="reset" name="reset" value="Clear This Form">
+        </td>
+      </tr>
+    </form>
+  </table>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+table {
+  border: 2px solid cyan;
+  border-spacing: 0;
+}
+
+.textbox {
+  width: 210px;
+  height: 50px;
+  text-align: right;
+  border: none;
+}
+
+#buttonZero {
+  width: 105px;
+  text-align: center;
+
+}
+
+td {
+  border: 1px solid cyan;
+  height: 50px;
+  width: 50px;
+}
+
+input[type="button"] {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: white;
+  text-align: center;
+}

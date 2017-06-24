@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      td{
+        border: 2px inset;
+        width: 28px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .right{
+        text-align: right;
+      }
+      .left{
+        text-align: left;
+      }
+      .bottom{
+        vertical-align: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr class="row1">
+        <td colspan="3" >
+          Title goes here
+        </td>
+        <td>A</td>
+        <td class="right">B</td>
+      </tr>
+      <tr class="row2">
+        <td rowspan="3" class="left">C</td>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+        <td class="right">G</td>
+      </tr>
+      <tr class="row3">
+        <td>H</td>
+        <td colspan="2">I</td>
+        <td rowspan="2" class="bottom right">J</td>
+      </tr>
+      <tr class="row4">
+        <td>K</td>
+        <td>L</td>
+        <td>M</td>
+      </tr>
+      <tr class="row5">
+        <td class="right">N</td>
+        <td colspan="4">O</td>
+      </tr>
+    </table>
+  </body>
+</html>
